@@ -1,0 +1,37 @@
+h1 {
+    background-color: #b3b3b3;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-variant: small-caps;
+    font-style: initial;
+    font-size: 210%;
+    
+}
+header {
+    background-color: #666666;
+    text-align: center;
+}
+
+nav {
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times;
+
+}
+
+h2 {
+    color: #666666;
+    background-color: #00B7ea;
+}
+
+details {
+    font-style: italic;
+}    
+
+summary {
+    font-style: normal;
+}
+
+footer {
+    background-color: #666666;
+}

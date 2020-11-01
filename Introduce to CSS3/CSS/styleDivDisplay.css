@@ -1,0 +1,22 @@
+span {
+    height: 50px;
+    width: 75px;
+    background-color: #00ff00;
+    display: inline-block;
+    float: inherit;
+}
+
+div {
+    height: 100px;
+    width: 45%;
+    background: #00ffff;
+    display: inline-block;
+    float: left
+}
+
+p {
+    background: #ff00ff;
+    width: 200px;
+    height: 100px;
+    clear: both;
+}

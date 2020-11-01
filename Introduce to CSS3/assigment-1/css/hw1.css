@@ -1,0 +1,41 @@
+body {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: #dfc9c9;
+}
+nav {
+    text-align: left;
+}
+nav a{
+    background-color: #ac256a;
+    color: #00a456;
+}
+h1 {
+    color: #524640;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    color: beige;
+    text-transform: uppercase;
+}
+section {
+    background-color: grey;
+}
+main img {
+    display: none;
+}
+table {
+    font-size: 20px;
+}
+p {
+    background-color: #059245;
+    font-size: 20px;
+    display: inline-block;
+}
+li {
+    background-color: #a9afbb;
+    
+}
