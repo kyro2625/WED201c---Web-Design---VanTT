@@ -1,0 +1,13 @@
+{
+    "githubIssues.queries": [
+    
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+.left {
+    display: none;
+}
+header {
+    background-color: darkgray;
+    color: chartreuse;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1%;
+}
+nav a {
+    font-size: 120%;
+    display: inline-block;
+    background-color: aliceblue;
+    width: 15%;
+    border-radius: 5px;
+}
+main {
+    background-color: darkcyan;
+}
+h2 {
+    text-transform: uppercase;
+}
+
+table {    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+th {
+    text-align: center;
+    background-color: greenyellow;
+}
+tr {
+    margin: 1%;
+    padding: 2%;
+}
+#myform {
+    display: none;
+}
