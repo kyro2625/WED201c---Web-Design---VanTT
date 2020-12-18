@@ -1,25 +1,16 @@
-var x = true;
-
-function show(){
-	if (x){
-		document.getElementById('team').style.display = "inline-block";
-		document.getElementById('myform').style.display  = "inline-block";
-		document.getElementById('showmore').innerHTML = "SHOW LESS";
-		x = false ;
+function zoomout(previewPic) {
+	document.getElementById('frame').style.backgroundImage = "url('" + previewPic.src + "')";
 }
-	else{
-		document.getElementById('team').style.display = "none";
-		document.getElementById('myform').style.display  = "none";
-		document.getElementById('showmore').innerHTML = "SHOW MORE";
-		x = true ;
+
+function warning() {
+	var a = document.getElementById("yourname").value;
+	var b = document.getElementById("email").value;
+	var c = document.getElementById("content").value;
+
+	if ((a == "" || a== null) || (b == "" || b== null) || (c == "" || c== null)) {
+        alert("This field Should not be blank");
+        return false;
+	} else if (confirm("Are you sure your information?")) {
+		alert("Message sent");
 	} 
-	
-}
-
-function check(){
-        var email = document.getElementById('email').value;
-
-        if (email == "" || email == null){
-        	alert("Please fill your email");       	
-        }
 }
