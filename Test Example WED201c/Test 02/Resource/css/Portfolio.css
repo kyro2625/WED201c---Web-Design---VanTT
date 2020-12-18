@@ -1,88 +1,86 @@
-section img {
-	padding: 20px 0px 0px 0px;
-	width: 200px;
-	height: 180px;
-	margin: 0px auto;
-	border: 2px;
-    display: inline-block;
-}
-.top{
-    text-align: center;
-}
-
-section h2 {
-	color: #647eff;
-}
 header {
-	background-color: #008a7b;
-	text-align: center;
-	padding: 5px 30px 40px 30px;
-}
-header h1 {
-	text-transform: uppercase;
-	color: #f17218;
-	padding: 0px 0px 30px 0px;
-        float: left;
+  background-color: coral;
+  padding: 3%;
 }
 
-header nav a {
+nav {
+  font-variant: normal;
+  font-family: Arial, "Times New Roman", serif;
+  font-size: 300%;
+}
+.link {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+
+}
+nav a {
+
+  color: aliceblue;
+  text-align: center;
   text-decoration: none;
-  background-color: #80c5bd;
-  color: rgb(0, 0, 0);
-  padding: 15px 60px 15px 60px;
-  margin: 40px;
-  border: 10px;
-  border-radius: 10px;
-  font-size: 1.1em;
-  float: right;
+  
 }
 
-.active {
-	background-color: #ffcca4;
+footer {
+  background-color:darksalmon;
+  text-align: center;
+  font-size: 130%;
+  float: left;
+  width: 100%;
+}
+p {
+  display: block
 }
 
-#team {
-	background-color: #ff9966;
-	display: none;
-}
-#team tr th {
-	background-color: #ff6600;
-}
-#showmore {
-	color:#647eff;
-}
-#myform {
-	background-color: #ffff99;
-	width: 670px;
-	float: right;
-	display: none;
-}
-section  table {
-	display: inline-block;
-}
-* {
-  box-sizing: border-content;
-  -moz-box-sizing: border-content;
-  -webkit-box-sizing: border-content;
-}
+.howtogrow {
 
-.container {
-  width: 960px;
-  border: 1px solid #333;
-  padding: 10px;
-  overflow: auto;
-}
-
-#post {
-  width: 660px;
-  height: 150px;
-  background: #e8e8e8;
   float: left;
 }
+.howtogrow p {
+  margin-left:3%;
+  float: left;
+  width: 12%;
 
-#sidebar {
-  width: 300px;
-  height: 150px;
-  background: #b1b1b1;
-  float: right;
+  
+}
+
+p::first-letter {
+  color: #903;
+  font-family: Georgia;
+  font-size: 125%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#frame {
+  line-height: 650px;
+  width: 575px;
+  height: 650px;
+  border: 5px solid black;
+  margin: 0 auto;
+  background-color: #8e68ff;
+  background-image: url('');
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-align: center;
+  background-size: 100%;
+  margin-bottom: 25px;
+  font-size: 150%;
+  display: block;
+  float: none;
+}
+
+.row img {
+  width: 150px;
+  height: 300px;
+  margin-left: 1.5%;
+  display: inline;
+  text-align: center;
+}
+
+.aboutme table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
